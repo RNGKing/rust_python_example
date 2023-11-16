@@ -1,0 +1,15 @@
+[package]
+name = "qr_code_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "qr_code_parser"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.19.0"
+image = "0.24.7"
+bardecoder = "0.5.0"
+qrcode-generator = "4.1.9"
